@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: auto;
+    
+}
+
+.container > div {
+    border: 1px solid black;
+}
+
+.content {
+    flex: 2;
+
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.content-grid {
+    display: grid;
+    grid-gap: 1em;
+    padding: 1.5em;
+    repeat: (auto-fill, minmax(50px, 1fr));
+    width: 100vh;
+
+
+
+
+
+}
+
+.content-grid > div {
+    border: 1px solid black;
+}
+
+.task {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(5, auto);
+   
+  
+}
+
+.new-task {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: repeat(5, auto);
+}
+
+.header{
+    min-height: 12vh;
+    text-align: center;
+    size: 32px;
+
+
+}
+
+
+.footer {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  
+}
+
+.sidebar{
+    flex: .5;
+    min-width: 20vh;
+    
+}
+
+.main > div {
+    border: 1px solid black;
+}
+
+

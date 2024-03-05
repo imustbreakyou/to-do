@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>To Do Loo</h1>
+            <h5>Saying goodbye to procrastination</h5>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="sidebar-grid-container">
+
+                    <div class="default-project">
+                        <h2>Home</h2>
+                    </div>
+                    <div class="default-project">
+                        <h2>Today</h2>
+                    </div>
+                    <div class="default-project">
+                        <h2>Week</h2>
+                    </div>
+                    <div class="custom-projects">
+                        <h2>Projects <button>+</button>
+                        </h2>
+                        <ul class="new-project-container">
+                            
+                            <li>Health</li>
+                            <li>Education</li>
+                            <li>Work</li>
+                        </il>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="content">
+                <div class="content-container">
+                    <div class="content-grid">
+                        <div class="task">
+                            <input type="checkbox">
+                            <div class="task-name">This is a Default Task</div>
+                            <div class="due-date">01/01/2024</div>
+                            <div class="Edit"><i class="fa-solid fa-pen-to-square"></i></div>
+                            <div class="Trash"><i class="fa-solid fa-trash"></i></div>
+                        </div>
+                        <div class="new-task">
+                           
+                            <select name="priority" id="priority">
+                                <option disabled selected hidden>Priority</option>
+                                <option value="high">High</option>
+                                <option value="medium">Medium</option>
+                                <option value="low">Low</option>
+                            </select>
+                            <input type="text" id="input-task-name">
+                            <input type="date" id="input-task-date">
+                            <button>Confirm</button>
+                            <button>Delete</button>
+
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <a href="https://github.com/imustbreakyou" target="_blank"> imustbreakyou
+                <img src="github-logo.png" alt="GitHub" width="20" height="20">
+                </a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/fd30647803.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+    
+</body>
+</html>
